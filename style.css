@@ -1,13 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(115, 162, 238);
+}
+
 h1 {
   background-color: rgb(84, 139, 216);
   color: white;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-size: 60px;
-}
-
-body {
-  background-color: rgb(115, 162, 238);
 }
 
 nav {
@@ -42,7 +46,7 @@ nav {
 
 .homebar a:hover {
   color: rgb(4, 52, 119);
-  border: 0;
+  border: 0 none;
 }
 
 #image-gallery {
@@ -50,22 +54,14 @@ nav {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
-  justify-content: center;
-  gap: 15px;
+  justify-content: space-evenly;
 }
 
-#image-gallery > div {
+#image-gallery > img {
   flex: 1 1 auto;
-  max-width: 20%;
+  max-width: 19%;
   text-align: center;
-  max-width: calc(100% / 5 - 15px);
-}
-
-#image-gallery img {
-  width: 100%;
   border: 5px solid var(--border-color, black);
-  height: auto;
-  object-fit: contain;
 }
 
 #Toronto-Market-Place {
