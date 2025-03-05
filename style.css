@@ -1,3 +1,4 @@
+/* Global styles and reets */
 * {
   box-sizing: border-box;
 }
@@ -13,6 +14,8 @@ h1 {
 body {
   background-color: rgb(115, 162, 238);
 }
+
+/* Global navigation bar */
 
 nav {
   display: flex;
@@ -49,41 +52,30 @@ nav {
   border: 0;
 }
 
-#Toronto-Market-Place {
-  width: 20%;
-}
-
-#Toronto-Market-Place img {
-  width: 100%;
-}
-
-#Parliament {
-  width: 20%;
-}
-
-#Glebe {
-  width: 20%;
-}
-
-#Segelflug {
-  width: 20%;
-}
-
-#Gatineau {
-  width: 20%;
-}
+/* Main landing page */
 
 .image-galery {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
   margin: 20px;
 }
 
-.image-galery img {
+.image-galery figure > img {
+  width: 100%;
+
   padding: 5px;
   background-color: rgb(59, 106, 146);
 }
+
+.image-galery > figure {
+  margin: 0;
+
+  flex-basis: 20%;
+}
+
+/* Contact */
 
 .contact-info {
   color: white;
