@@ -1,13 +1,14 @@
 /* Global styles and reets */
 * {
   box-sizing: border-box;
+
+  font-family: "Times New Roman", Times, serif;
 }
 
 h1 {
   background-color: rgb(84, 139, 216);
   color: white;
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
   font-size: 60px;
 }
 
@@ -79,9 +80,6 @@ nav {
 
 .contact-info {
   color: white;
-  padding-top: 50px;
-  padding-left: 50px;
-  text-align: left;
-  font-family: "Times New Roman", Times, serif;
+  padding: 50px;
   font-size: 20px;
 }
